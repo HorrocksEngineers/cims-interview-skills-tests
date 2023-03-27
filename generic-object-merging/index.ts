@@ -1,12 +1,6 @@
 import dataJSON from './data.json';
 import { test } from './.solutions';
 
-type UserGroup = {};
-
-type Role = {};
-
-type Permission = {};
-
 type User = {
   id: string;
   displayName: string;
@@ -14,9 +8,9 @@ type User = {
 };
 
 type ProjectUser = User & {
-  userGroups: UserGroup[];
-  roles: Role[];
-  additionalPermissions: Permission[];
+  // TODO userGroups: UserGroup[];
+  // TODO roles: Role[];
+  // TODO additionalPermissions: Permission[];
 };
 
 /**

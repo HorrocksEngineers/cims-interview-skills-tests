@@ -16,39 +16,12 @@ A Project has a list of Users, but we have to do a little bit of work to get the
 
 ## Requirements
 
-- Use Typescript's Generic Types
+Implement a method called `projectUsers` in `index.ts` using Typescript Generics
 
-## Test Prompt
+This method will merge data from two lists into a single list of `ProjectUser` records
 
-This GraphQL query returns two lists; one holds user roles and one-off permissions for a given project, while the other holds all user groups associated with a project
+The data source is defined in `data.json` and is an example of a response from our GraphQL API
 
-The query isn't the important part, but the fact that we need to get all the Project's users
+We want to use Typescript Generics to give our method the flexibilty to accept _any_ object which contains the minimum required properties to make it work
 
-``` graphql
-query($globalId: String!) {
-  project(globalId: $globalId) {
-    userToProjects {
-      userId
-      roles {
-        name
-        permissions {
-          name
-        }
-      }
-      additionalPermissions {
-        name
-      }
-    }
-    projectToUserGroups {
-      userGroup {
-        name
-        users {
-          id
-          displayName
-          mail
-        }
-      }
-    }
-  }
-}
-```
+A JSDoc and some initial types have been provided for you
