@@ -1,0 +1,173 @@
+{
+  "data": {
+    "project": {
+      "userToProjects": [
+        {
+          "userId": "89bd0913-1a64-4f99-9f40-8a44986acc00",
+          "roles": [
+            {
+              "name": "Developer"
+            }
+          ],
+          "additionalPermissions": []
+        },
+        {
+          "userId": "08a409fc-5c09-45ee-b25d-abebcbd416be",
+          "roles": [
+            {
+              "name": "CIMS Admin"
+            }
+          ],
+          "additionalPermissions": []
+        },
+        {
+          "userId": "bef7f51a-c03b-4e16-aaac-86b97cf2d414",
+          "roles": [
+            {
+              "name": "CIMS Admin"
+            }
+          ],
+          "additionalPermissions": []
+        },
+        {
+          "userId": "c1d49111-c656-4a4c-a08f-039d1eb802bf",
+          "roles": [
+            {
+              "name": "CIMS Admin"
+            },
+            {
+              "name": "Construction and Admin Group Reviewer"
+            }
+          ],
+          "additionalPermissions": [
+            {
+              "name": "Revise Construction & Admin Submittal"
+            },
+            {
+              "name": "Group Review All Construction & Admin Submittals"
+            },
+            {
+              "name": "Route Construction & Admin Submittal"
+            },
+            {
+              "name": "Revert Construction & Admin Submittal"
+            },
+            {
+              "name": "Edit Inline"
+            }
+          ]
+        },
+        {
+          "userId": "6a2c6156-80cf-4701-9310-91ec0f1a96ea",
+          "roles": [
+            {
+              "name": "CIMS Admin"
+            },
+            {
+              "name": "Design Contractor"
+            }
+          ],
+          "additionalPermissions": []
+        }
+      ],
+      "projectToUserGroups": [
+        {
+          "userGroup": {
+            "name": "CIMS Testing - Developer",
+            "users": [
+              {
+                "id": "1c592efb-1484-4b5e-a555-ca6aa19d7695",
+                "displayName": "Aaron Farr",
+                "mail": "aaron.farr@horrocks.com"
+              },
+              {
+                "id": "2da6e58c-0fa8-46b2-b762-a8523f72201f",
+                "displayName": "brettw",
+                "mail": "brettw@gurutechnologies.net"
+              },
+              {
+                "id": "6aecca56-8528-4e97-8da2-43187d458bc3",
+                "displayName": "nateb",
+                "mail": "nateb@gurutechnologies.net"
+              },
+              {
+                "id": "6c72650c-9eb9-4206-bbd2-41723aeb3723",
+                "displayName": "Lucas Manker",
+                "mail": "lucas.manker@horrocks.com"
+              },
+              {
+                "id": "89bd0913-1a64-4f99-9f40-8a44986acc00",
+                "displayName": "Dallen Baldwin",
+                "mail": "dallen.baldwin@horrocks.com"
+              }
+            ]
+          }
+        },
+        {
+          "userGroup": {
+            "name": "CIMS Testing - Admin",
+            "users": [
+              {
+                "id": "08a409fc-5c09-45ee-b25d-abebcbd416be",
+                "displayName": "Peter Anderson",
+                "mail": "petera@horrocks.com"
+              },
+              {
+                "id": "2dce87ae-e09a-4f5a-9335-28a8ed22ccc8",
+                "displayName": "Derrick Sharp",
+                "mail": "derricks@horrocks.com"
+              },
+              {
+                "id": "6746356c-3c4f-4041-a563-ad09c67938a5",
+                "displayName": "Nathan Humphrey",
+                "mail": "nathan.humphrey@horrocks.com"
+              },
+              {
+                "id": "89bd0913-1a64-4f99-9f40-8a44986acc00",
+                "displayName": "Dallen Baldwin",
+                "mail": "dallen.baldwin@horrocks.com"
+              },
+              {
+                "id": "bef7f51a-c03b-4e16-aaac-86b97cf2d414",
+                "displayName": "Mickey Yu",
+                "mail": "mickey.yu@horrocks.com"
+              }
+            ]
+          }
+        },
+        {
+          "userGroup": {
+            "name": "CIMS Testing - Testers",
+            "users": [
+              {
+                "id": "08a409fc-5c09-45ee-b25d-abebcbd416be",
+                "displayName": "Peter Anderson",
+                "mail": "petera@horrocks.com"
+              },
+              {
+                "id": "3f1a5fdd-8cff-4d1d-ac06-d45fbf181f40",
+                "displayName": "Blake Pando",
+                "mail": "blake.pando@horrocks.com"
+              },
+              {
+                "id": "56f984bc-5e62-4b68-9bf4-215971bd7b87",
+                "displayName": "Cameron Parkinson",
+                "mail": "Cameron.Parkinson@horrocks.com"
+              },
+              {
+                "id": "5e6f6d93-1899-4961-8260-d6b13b9afc3c",
+                "displayName": "Tyler Robirds",
+                "mail": "tylerr@horrocks.com"
+              },
+              {
+                "id": "6a2c6156-80cf-4701-9310-91ec0f1a96ea",
+                "displayName": "Brett Daniel",
+                "mail": "brettd@horrocks.com"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
