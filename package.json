@@ -1,15 +1,16 @@
 {
   "name": "cims-interview-skills-tests",
   "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "workspaces": [
+    "generic-object-merging",
+    "react-apollo-ant",
+    "database-normalization-typeorm"
+  ],
   "repository": "git@github.com:HorrocksEngineers/cims-interview-skills-tests.git",
   "author": "Dallen Baldwin <dallen.baldwin@horrocks.com>",
-  "devDependencies": {
-    "typescript": "^5.0.2"
-  },
-  "dependencies": {
-    "ts-node": "^10.9.1"
-  },
   "scripts": {
-    "test-generic-object-merging": "ts-node generic-object-merging/index.ts"
+    "generic-object-merging:test": "ts-node generic-object-merging/index.ts"
   }
 }

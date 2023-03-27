@@ -1,0 +1,11 @@
+{
+  "name": "generic-object-merging",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}

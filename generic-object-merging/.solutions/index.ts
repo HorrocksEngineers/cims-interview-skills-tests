@@ -15,7 +15,8 @@ export function test<T extends ProjectUser>(users: T[]) {
       return;
     else throw new Error(`${TESTERS} UserGroup is missing`);
   } catch (err) {
-    console.error(`\nFAIL!\n-----\n${err.message}\n`);
+    if (err instanceof Error) console.error(`\nFAIL!\n-----\n${err.message}\n`);
+    throw err;
   }
 }
 
