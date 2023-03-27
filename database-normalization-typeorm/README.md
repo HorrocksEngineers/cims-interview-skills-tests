@@ -10,5 +10,3 @@ TODO
 
 - The resulting schema should conform to 3rd Normal Form
 - Entities should use TypeORM's Active Record pattern
-
-## Test
