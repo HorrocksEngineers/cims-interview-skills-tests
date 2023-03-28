@@ -14,6 +14,7 @@ export default function App() {
     <Layout>
       <Layout.Header />
       <Layout.Content>
+        {/* TODO figure out how to keep this under 30 minutes */}
         <h1>Organize this Data</h1>
         <Button onClick={() => setShowData(prev => !prev)}>Show Data</Button>
 

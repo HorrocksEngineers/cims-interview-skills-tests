@@ -16,4 +16,4 @@ When pulling data from the server, we use the [Apollo GraphQL Client](https://ww
 - Use the Ant Design Component Library
 - Query/Mutate data using Apollo Client
 
-TODO use https://codesandbox.io/ to build a basic env in here
+<!-- TODO add requirements here -->
