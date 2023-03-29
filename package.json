@@ -12,6 +12,7 @@
   "author": "Dallen Baldwin <dallen.baldwin@horrocks.com>",
   "scripts": {
     "generic-object-merging": "ts-node generic-object-merging/index.ts",
-    "react-apollo-ant": "yarn workspace react-apollo-ant start"
+    "react-apollo-ant": "yarn workspace react-apollo-ant start",
+    "database-normalization-typeorm": "docker-compose up && yarn workspace database-normalization-typeorm start"
   }
 }
