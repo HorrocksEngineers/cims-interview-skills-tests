@@ -12,12 +12,6 @@ This execise is intended to test both your database normalization skills and abi
 
 I like Pokemon, so the database schema in question is a simple Pokemon game database.
 
-## Getting Started
-
-``` bash
-yarn database-normalization-typeorm
-```
-
 ## Requirements
 
 1. Create database entity classes in `/src/entity` using TypeORM decorators, satisfying the following.
@@ -29,6 +23,12 @@ yarn database-normalization-typeorm
    - We want to know the highest level of each Boss' Pokemon.
    - Each boss may award the trainer with a badge for beating them in battle.
 1. Resolve as many TODOs as possible.
+
+## Getting Started
+
+``` bash
+yarn database-normalization-typeorm
+```
 
 ## Resources
 
