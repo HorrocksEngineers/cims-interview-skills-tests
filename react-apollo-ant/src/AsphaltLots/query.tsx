@@ -1,6 +1,14 @@
 import { gql } from '@apollo/client';
 
-export const ProjectAsphaltLots = gql`
+export default function useProjectAsphaltLots() {
+  const globalId = 'DA8C588C-A7DA-41F1-AD59-602363787D48';
+  // TODO use the Apollo Client to query the GraphQL API with the following query
+}
+
+/**
+ * Gets `AsphaltLot` records from
+ */
+const ProjectAsphaltLotsQuery = gql`
   query (
     $globalId: String!
     $asphaltLotFieldInput: AsphaltLotFieldInput
@@ -57,3 +65,50 @@ export const ProjectAsphaltLots = gql`
     }
   }
 `;
+
+type ProjectAsphaltLotsType = {
+  project: {
+    projectName?: string;
+    clientProjectNumber?: string;
+    projectMetadata: {
+      sharePointURL: string;
+    };
+    asphaltLots: {
+      asphaltLotId?: string;
+      lotCreatedDate?: Date;
+      status?: string;
+      asphaltMixDesign?: {
+        mixDesignNumber?: string;
+      };
+      asphaltMaterial?: {
+        placementType?: string;
+      };
+      payItemNoGeometries: {
+        payItemId?: string;
+        description?: string;
+      }[];
+      asphaltSamples: {
+        asphaltSampleId?: string;
+        timeSampled?: Date;
+        notes?: string;
+      }[];
+      asphaltPlacements: {
+        placementId?: string;
+        beginOffset?: string;
+        beginAlignment?: string;
+        beginStation?: string;
+        endAlignment?: string;
+        endOffset?: string;
+        endStation?: string;
+        asphaltCoreMeasurements: {
+          coreType?: string;
+          alignment?: string;
+          offset?: string;
+          station?: string;
+          measurementId?: string;
+          measurementDate?: Date;
+        }[];
+      }[];
+    }[];
+  };
+};
