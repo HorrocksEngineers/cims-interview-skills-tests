@@ -1,13 +1,9 @@
-# Cims Interview Skills Tests <!-- omit in toc -->
+# CIMS Interview Skills Tests <!-- omit in toc -->
 
-A repository for some simple skills tests to use when trying to hire someone for the team
-
-This is a choose your own adventure activity, complete only one of the following tests
-
-Each of the following tests are designed to be completed in 20-30 minutes
+The exercises in this [repository][repo] are designed to help our team get a feel for how you write code and solve problems. You will need to fork or clone the repository, go over the [Prerequesites][prereq], [Installation][install] instructions, and [choose an exercise][adventure] before our next in-person/remote interview session. We will look over your shoulder as you attempt to complete it in about 30 minutes; expecting to hear your thoughts as you go. Feel free to pour over any linked resources, take notes, come up with a game-plan, write some psuedocode, etc. but please do not prepare for the interview by completing the exercise beforehand; as that defeats the purpose of the entire interview.
 
 - [Prerequesites](#prerequesites)
-- [Getting Started](#getting-started)
+- [Installation](#installation)
 - [Choose Your Own Adventure](#choose-your-own-adventure)
   - [Database Normalization + TypeORM](#database-normalization--typeorm)
   - [React + Apollo Client + Ant Design](#react--apollo-client--ant-design)
@@ -15,16 +11,24 @@ Each of the following tests are designed to be completed in 20-30 minutes
 
 ## Prerequesites
 
-- [node](https://nodejs.org/en/download) (LTS/Gallium minimum)
-- [yarn](https://yarnpkg.com/getting-started/install)
-- [Docker & Docker Compose](https://docs.docker.com/get-docker/)
+- [node][node] (LTS/Gallium minimum)
+- [yarn][yarn]
+- [Docker & Docker Compose][docker]
 
-## Getting Started
+## Installation
+
+Fork or clone this repository
 
 ``` bash
+# clone
 git clone https://github.com/HorrocksEngineers/cims-interview-skills-tests.git
 # gh repo clone HorrocksEngineers/cims-interview-skills-tests
 # git clone git@github.com:HorrocksEngineers/cims-interview-skills-tests.git
+
+# after fork
+git clone https://github.com/{username}/cims-interview-skills-tests.git
+# gh repo clone {username}/cims-interview-skills-tests
+# git clone git@github.com:{username}/cims-interview-skills-tests.git
 
 cd cims-interview-skills-test && yarn
 ```
@@ -48,3 +52,12 @@ Build a simple React component with Typescript
 Write a function to merge and organize a list of Users
 
 [README](/generic-object-merging/README.md#background)
+
+<!-- links -->
+[repo]: https://github.com/HorrocksEngineers/cims-interview-skills-tests
+[adventure]: https://github.com/HorrocksEngineers/cims-interview-skills-tests#choose-your-own-adventure
+[prereq]: https://github.com/HorrocksEngineers/cims-interview-skills-tests#prerequesites
+[install]: https://github.com/HorrocksEngineers/cims-interview-skills-tests#installation
+[node]: https://nodejs.org/en/download
+[yarn]: https://yarnpkg.com/getting-started/install
+[docker]: https://docs.docker.com/get-docker
