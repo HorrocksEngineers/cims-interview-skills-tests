@@ -14,15 +14,21 @@ I like Pokemon, so the database schema in question is a simple Pokemon game data
 
 ## Requirements
 
-- Create database entity classes using TypeORM decorators, satisfying the following
-  - Trainers collect one or more wild Pokemon from various locations
-  - Each trainer's caught Pokemon has a level and list of moves
-  - Boss challenges can occur in these locations
-  - Multiple bosses may challenge the trainer in the same location
-  - These bosses have one or more Pokemon with a level and list of moves
-  - We want to know the highest level of each Boss' Pokemon
-  - Each boss may award the trainer with a badge for beating them in battle
-- Resolve as many TODOs as possible
+1. Create database entity classes using TypeORM decorators, satisfying the following
+   - Trainers collect one or more wild Pokemon from various locations
+   - Each trainer's caught Pokemon has a level and list of moves
+   - Boss challenges can occur in these locations
+   - Multiple bosses may challenge the trainer in the same location
+   - These bosses have one or more Pokemon with a level and list of moves
+   - We want to know the highest level of each Boss' Pokemon
+   - Each boss may award the trainer with a badge for beating them in battle
+1. Resolve as many TODOs as possible
+
+## Getting Started
+
+``` bash
+yarn database-normalization-typeorm
+```
 
 ## Resources
 
