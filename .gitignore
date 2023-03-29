@@ -105,4 +105,7 @@ dist
 # TernJS port file
 .tern-port
 
+# outputs and solutions
 solutions
+entity.md
+erdiagram.md
