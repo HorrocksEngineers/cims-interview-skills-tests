@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "devDependencies": {
     "@types/node": "^16.11.10",
+    "erdia": "^2.2.1",
     "nodemon": "^2.0.22",
     "ts-node": "10.7.0",
     "typescript": "4.5.2"
@@ -14,6 +15,7 @@
   },
   "scripts": {
     "start": "nodemon src/index.ts",
-    "typeorm": "typeorm-ts-node-commonjs"
+    "typeorm": "typeorm-ts-node-commonjs",
+    "erdia": "node -r ts-node/register ../node_modules/erdia/dist/cli.js md"
   }
 }

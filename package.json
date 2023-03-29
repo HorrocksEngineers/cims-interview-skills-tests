@@ -13,6 +13,7 @@
   "scripts": {
     "generic-object-merging": "yarn workspace generic-object-merging start",
     "react-apollo-ant": "yarn workspace react-apollo-ant start",
-    "database-normalization-typeorm": "docker-compose up -d && yarn workspace database-normalization-typeorm start"
+    "database-normalization-typeorm": "docker-compose up -d && yarn workspace database-normalization-typeorm start",
+    "database-normalization-typeorm:erdia": "yarn workspace database-normalization-typeorm erdia"
   }
 }
