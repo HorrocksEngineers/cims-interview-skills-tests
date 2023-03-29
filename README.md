@@ -20,17 +20,13 @@ Each of the following tests are designed to be completed in 20-30 minutes
 
 ## Getting Started
 
-Clone
+``` bash
+git clone https://github.com/HorrocksEngineers/cims-interview-skills-tests.git
+# gh repo clone HorrocksEngineers/cims-interview-skills-tests
+# git clone git@github.com:HorrocksEngineers/cims-interview-skills-tests.git
 
-`git clone https://github.com/HorrocksEngineers/cims-interview-skills-tests.git`
-
-`gh repo clone HorrocksEngineers/cims-interview-skills-tests`
-
-`git clone git@github.com:HorrocksEngineers/cims-interview-skills-tests.git`
-
-Install
-
-`cd cims-interview-skills-test && yarn`
+cd cims-interview-skills-test && yarn
+```
 
 ## Choose Your Own Adventure
 
