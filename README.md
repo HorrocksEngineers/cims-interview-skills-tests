@@ -1,6 +1,12 @@
 # CIMS Interview Skills Tests <!-- omit in toc -->
 
-The exercises in this [repository][repo] are designed to help our team get a feel for how you write code and solve problems. You will need to fork or clone the repository, go over the [Prerequesites][prereq], [Installation][install] instructions, and [choose an exercise][adventure] before our next in-person/remote interview session. We will look over your shoulder as you attempt to complete it in about 30 minutes; expecting to hear your thoughts as you go. Feel free to pour over any linked resources, take notes, come up with a game-plan, write some pseudocode, etc. but please do not prepare for the interview by completing the exercise beforehand; as that defeats the purpose of the entire interview.
+The exercises in this [repository][repo] are designed to help our team get a feel for how you write code and solve problems.
+
+You should have already gotten a list of [prerequesites][prereq] to make sure your environment is set up to complete any exercise.
+
+You will need to fork or clone the repository and go over the [Installation][install] instructions. For about 10-15 minutes, you'll be able to check out each exercise, look over resources, and come up with a game plan. After that time, we'll give you about 30 minutes to complete as much of your selected exercise as possible.
+
+We will be "looking over your shoulder" as you prepare and attempt to complete your exercise; expecting to hear your thoughts as you go.
 
 - [Prerequesites](#prerequesites)
 - [Installation](#installation)
@@ -55,7 +61,6 @@ Write a function to merge and organize a list of Users
 
 <!-- links -->
 [repo]: https://github.com/HorrocksEngineers/cims-interview-skills-tests
-[adventure]: https://github.com/HorrocksEngineers/cims-interview-skills-tests#choose-your-own-adventure
 [prereq]: https://github.com/HorrocksEngineers/cims-interview-skills-tests#prerequesites
 [install]: https://github.com/HorrocksEngineers/cims-interview-skills-tests#installation
 [node]: https://nodejs.org/en/download
