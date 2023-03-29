@@ -1,5 +1,4 @@
 import { AppDataSource } from './data-source';
-import { User } from './entity/User';
 
 AppDataSource.initialize()
   .then(async ({ entityMetadatas }) => {
@@ -7,9 +6,10 @@ AppDataSource.initialize()
       console.log({
         name,
         foreignKeys,
-        columns: columns.map(({ databaseName, referencedColumn }) => ({
+        columns: columns.map(({ databaseName, referencedColumn, type }) => ({
           databaseName,
           referencedColumn,
+          type,
         })),
       })
     );
