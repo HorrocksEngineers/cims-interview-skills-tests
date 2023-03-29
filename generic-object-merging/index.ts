@@ -1,5 +1,5 @@
 import dataJSON from './data.json';
-import { test } from './.solutions';
+import { test } from './test';
 
 type User = {
   id: string;
