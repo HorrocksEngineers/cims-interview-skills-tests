@@ -2,11 +2,6 @@
 
 [Back](/README.md#cims-interview-skills-tests)
 
-## Prerequesites
-
-- Copy `.example.env` as `.env`
-- Get an API Key to interact with the Development GraphQL API
-
 ## Background
 
 Projects are big part of CIMS. Most objects are only one or two relations away from a Project.

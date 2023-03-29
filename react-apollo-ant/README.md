@@ -12,6 +12,15 @@ When pulling data from the server, we use the Apollo GraphQL Client library to q
 
 A fair amount of code has been written for you to get started.
 
+## Getting Started
+
+- Copy `.example.env` as `.env`
+- Get an API Key to interact with the Development GraphQL API
+
+``` bash
+yarn react-apollo-ant
+```
+
 ## Requirements
 
 1. Resolve as many TODOs as possible
