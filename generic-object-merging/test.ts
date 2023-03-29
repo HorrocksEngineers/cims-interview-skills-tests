@@ -19,23 +19,3 @@ export function test(users: unknown) {
     else throw err;
   }
 }
-
-type WithName = { name: string };
-
-type UserGroup = WithName;
-
-type Role = WithName;
-
-type Permission = WithName;
-
-type User = {
-  id: string;
-  displayName: string;
-  mail: string;
-};
-
-type ProjectUser = User & {
-  userGroups: UserGroup[];
-  roles: Role[];
-  additionalPermissions: Permission[];
-};
