@@ -25,8 +25,8 @@ git clone https://github.com/HorrocksEngineers/cims-interview-skills-tests.git
 # gh repo clone HorrocksEngineers/cims-interview-skills-tests
 # git clone git@github.com:HorrocksEngineers/cims-interview-skills-tests.git
 
-# after fork
-git clone https://github.com/{username}/cims-interview-skills-tests.git
+# or fork
+# git clone https://github.com/{username}/cims-interview-skills-tests.git
 # gh repo clone {username}/cims-interview-skills-tests
 # git clone git@github.com:{username}/cims-interview-skills-tests.git
 
