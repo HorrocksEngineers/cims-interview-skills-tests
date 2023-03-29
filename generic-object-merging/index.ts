@@ -1,5 +1,4 @@
 import dataJSON from './data.json';
-import { projectUsers } from './.solutions/dallen';
 import { test } from './.solutions';
 
 type User = {

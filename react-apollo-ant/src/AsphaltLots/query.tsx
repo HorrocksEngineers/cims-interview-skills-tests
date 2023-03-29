@@ -1,12 +1,25 @@
-import { gql } from '@apollo/client';
+import { gql, useQuery } from '@apollo/client';
 
+/**
+ * TODO exclude deleted `AsphaltLot` records
+ *
+ * TODO handle errors with a pop-up notification
+ */
 export default function useProjectAsphaltLots() {
   const globalId = 'DA8C588C-A7DA-41F1-AD59-602363787D48';
-  // TODO use the Apollo Client to query the GraphQL API with the following query
+  // most of this has been done for you as CIMS has its own methodology for
+  // generating useQuery hooks automatically
+  const query = useQuery<ProjectAsphaltLotsType>(ProjectAsphaltLotsQuery, {
+    variables: {
+      globalId,
+    },
+  });
+  return query;
 }
 
 /**
- * Gets `AsphaltLot` records from
+ * While the `globalId` variable has been provided above, you may use any of
+ * the inputs to modify query results
  */
 const ProjectAsphaltLotsQuery = gql`
   query (
@@ -66,6 +79,10 @@ const ProjectAsphaltLotsQuery = gql`
   }
 `;
 
+/**
+ * We've done the work of typing out the response of `ProjectAsphaltLotsQuery`
+ * as CIMS has it's own methodology for generating types automatically
+ */
 type ProjectAsphaltLotsType = {
   project: {
     projectName?: string;

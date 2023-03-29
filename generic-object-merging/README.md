@@ -2,26 +2,29 @@
 
 [Back](/README.md#cims-interview-skills-tests)
 
+## Prerequesites
+
+- Copy `.example.env` as `.env`
+- Get an API Key to interact with the Development GraphQL API
+
 ## Background
 
-Projects are big part of CIMS
+Projects are big part of CIMS. Most objects are only one or two relations away from a Project.
 
-Most objects are only one or two relations away from a Project
+Users are not directly associated with Projects, they are associated with one or more UserGroups and each UserGroup is associated with one or more Projects. A User only gets access to a Project once they have at least one Role or Permission.
 
-Users are not directly associated with Projects, they are associated with one or more UserGroups and each UserGroup is associated with one or more Projects
+Each Project should have a list of Users for Admins to manage, but we have to do a little bit of work to get the Users organized the way we want in the UI.
 
-A User only gets access to a Project once they have at least one Role or Permission
+You'll need to implement a method called `projectUsers` in `index.ts` using Typescript Generics. This method will merge data from two lists into a single list of `ProjectUser` records. The data source is defined in `data.json` and is an example of a response from our GraphQL API.
 
-A Project has a list of Users, but we have to do a little bit of work to get the Users organized the way we want in the UI
+We want to use Typescript Generics to give our method the flexibilty to accept _any_ object which contains the minimum required properties to make it work.
+
+A JSDoc and some initial types have been provided for you.
 
 ## Requirements
 
-Implement a method called `projectUsers` in `index.ts` using Typescript Generics
+1. Resolve as many TODOs as possible
 
-This method will merge data from two lists into a single list of `ProjectUser` records
+## References
 
-The data source is defined in `data.json` and is an example of a response from our GraphQL API
-
-We want to use Typescript Generics to give our method the flexibilty to accept _any_ object which contains the minimum required properties to make it work
-
-A JSDoc and some initial types have been provided for you
+- [Typescript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
