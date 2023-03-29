@@ -17,6 +17,7 @@ Each of the following tests are designed to be completed in 20-30 minutes
 
 - [node](https://nodejs.org/en/download) (LTS/Gallium minimum)
 - [yarn](https://yarnpkg.com/getting-started/install)
+- [Docker & Docker Compose](https://docs.docker.com/get-docker/)
 
 ## Getting Started
 

@@ -13,6 +13,6 @@
   "scripts": {
     "generic-object-merging": "ts-node generic-object-merging/index.ts",
     "react-apollo-ant": "yarn workspace react-apollo-ant start",
-    "database-normalization-typeorm": "docker-compose up && yarn workspace database-normalization-typeorm start"
+    "database-normalization-typeorm": "docker-compose up -d && yarn workspace database-normalization-typeorm start"
   }
 }
