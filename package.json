@@ -11,7 +11,7 @@
   "repository": "git@github.com:HorrocksEngineers/cims-interview-skills-tests.git",
   "author": "Dallen Baldwin <dallen.baldwin@horrocks.com>",
   "scripts": {
-    "generic-object-merging": "ts-node generic-object-merging/index.ts",
+    "generic-object-merging": "yarn workspace generic-object-merging start",
     "react-apollo-ant": "yarn workspace react-apollo-ant start",
     "database-normalization-typeorm": "docker-compose up -d && yarn workspace database-normalization-typeorm start"
   }
