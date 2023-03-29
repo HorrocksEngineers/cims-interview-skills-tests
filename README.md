@@ -1,6 +1,6 @@
 # CIMS Interview Skills Tests <!-- omit in toc -->
 
-The exercises in this [repository][repo] are designed to help our team get a feel for how you write code and solve problems. You will need to fork or clone the repository, go over the [Prerequesites][prereq], [Installation][install] instructions, and [choose an exercise][adventure] before our next in-person/remote interview session. We will look over your shoulder as you attempt to complete it in about 30 minutes; expecting to hear your thoughts as you go. Feel free to pour over any linked resources, take notes, come up with a game-plan, write some psuedocode, etc. but please do not prepare for the interview by completing the exercise beforehand; as that defeats the purpose of the entire interview.
+The exercises in this [repository][repo] are designed to help our team get a feel for how you write code and solve problems. You will need to fork or clone the repository, go over the [Prerequesites][prereq], [Installation][install] instructions, and [choose an exercise][adventure] before our next in-person/remote interview session. We will look over your shoulder as you attempt to complete it in about 30 minutes; expecting to hear your thoughts as you go. Feel free to pour over any linked resources, take notes, come up with a game-plan, write some pseudocode, etc. but please do not prepare for the interview by completing the exercise beforehand; as that defeats the purpose of the entire interview.
 
 - [Prerequesites](#prerequesites)
 - [Installation](#installation)
