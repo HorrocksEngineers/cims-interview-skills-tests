@@ -39,7 +39,7 @@ git clone https://github.com/{username}/cims-interview-skills-tests.git
 # git clone git@github.com:{username}/cims-interview-skills-tests.git
 
 # go into repo
-cd cims-interview-skills-test
+cd cims-interview-skills-tests
 
 # install dependencies
 yarn
