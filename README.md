@@ -1,4 +1,4 @@
-# CIMS Interview Skills Tests <!-- omit in toc -->
+# CIMS Interview Skills Tests
 
 We have come up with a few exercises to help our team get a feel for how you write code and solve problems.
 
@@ -9,14 +9,6 @@ You will need to fork this repository, go over getting started instructions, and
 Not finishing an exercise in 30 minutes will not result in a disqualification of any kind. Completion is nice, but we're more interested in how you work through the problem. With that in mind, we will be "looking over your shoulder" as you prepare and attempt to complete your selected exercise; expecting to hear your thoughts as you go.
 
 At the end, we'll have you create a pull request against the `main` upstream branch so we can review it later.
-
-- [Prerequesites](#prerequesites)
-- [Getting Started](#getting-started)
-- [Choose Your Own Adventure](#choose-your-own-adventure)
-  - [Database Normalization + TypeORM](#database-normalization--typeorm)
-  - [React + Apollo Client + Ant Design](#react--apollo-client--ant-design)
-  - [Typescript Generic Method + Object Merging](#typescript-generic-method--object-merging)
-- [When we finish](#when-we-finish)
 
 ## Prerequesites
 
