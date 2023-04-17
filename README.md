@@ -2,8 +2,6 @@
 
 We have come up with a few exercises to help our team get a feel for how you write code and solve problems.
 
-You should have already gotten a list of prerequesites to make sure your environment is set up to complete any exercise.
-
 You will need to fork this repository, go over getting started instructions, and create a branch to work out of. For 15 minutes, you'll be able to check out each exercise, look over resources, and come up with a game plan. After that time, you'll get 30 minutes to complete as much of your selected exercise as possible. If you start working before the first 15 minutes is up, we'll start the 30 minute timer; so make the most of it.
 
 Not finishing an exercise in 30 minutes will not result in a disqualification of any kind. Completion is nice, but we're more interested in how you work through the problem. With that in mind, we will be "looking over your shoulder" as you prepare and attempt to complete your selected exercise; expecting to hear your thoughts as you go.
