@@ -40,6 +40,7 @@ const ProjectAsphaltLotsQuery = gql`
         asphaltLotId
         lotCreatedDate
         status
+        deleted
         asphaltMixDesign {
           mixDesignNumber
         }
@@ -49,11 +50,13 @@ const ProjectAsphaltLotsQuery = gql`
         payItemNoGeometries(payItemNoGeometryFieldInput: $payItemNoGeometryFieldInput) {
           payItemId
           description
+          deleted
         }
         asphaltSamples(asphaltSampleFieldInput: $asphaltSampleFieldInput) {
           asphaltSampleId
           timeSampled
           notes
+          deleted
         }
         asphaltPlacements(asphaltPlacementFieldInput: $asphaltPlacementFieldInput) {
           placementId
@@ -63,6 +66,7 @@ const ProjectAsphaltLotsQuery = gql`
           endAlignment
           endOffset
           endStation
+          deleted
           asphaltCoreMeasurements(
             asphaltCoreMeasurementFieldInput: $asphaltCoreMeasurementFieldInput
           ) {
@@ -72,6 +76,7 @@ const ProjectAsphaltLotsQuery = gql`
             station
             measurementId
             measurementDate
+            deleted
           }
         }
       }
@@ -94,6 +99,7 @@ type ProjectAsphaltLotsType = {
       asphaltLotId?: string;
       lotCreatedDate?: Date;
       status?: string;
+      deleted?: string;
       asphaltMixDesign?: {
         mixDesignNumber?: string;
       };
@@ -103,11 +109,13 @@ type ProjectAsphaltLotsType = {
       payItemNoGeometries: {
         payItemId?: string;
         description?: string;
+        deleted?: string;
       }[];
       asphaltSamples: {
         asphaltSampleId?: string;
         timeSampled?: Date;
         notes?: string;
+        deleted?: string;
       }[];
       asphaltPlacements: {
         placementId?: string;
@@ -117,6 +125,7 @@ type ProjectAsphaltLotsType = {
         endAlignment?: string;
         endOffset?: string;
         endStation?: string;
+        deleted?: string;
         asphaltCoreMeasurements: {
           coreType?: string;
           alignment?: string;
@@ -124,6 +133,7 @@ type ProjectAsphaltLotsType = {
           station?: string;
           measurementId?: string;
           measurementDate?: Date;
+          deleted?: string;
         }[];
       }[];
     }[];
