@@ -31,3 +31,4 @@ yarn react-apollo-ant
 - [Ant Design](https://ant.design/components/overview/)
 - [Apollo GraphQL Client](https://www.apollographql.com/docs/react/)
 - [CIMS API Reference](https://cims.horrocks.com/reports-dev/api)
+- [Simple GraphQL Query Explorer](https://hoppscotch.io/graphql)
