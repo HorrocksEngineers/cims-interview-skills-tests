@@ -35,6 +35,8 @@ I like Pokemon, so the database schema in question is a simple Pokemon game data
 yarn database-normalization-typeorm
 ```
 
+Since this test uses a database connection. It's possible the connection won't be ready by the time the application starts. If you see a Connection Error, just save a file for `nodemon` to trigger a change to reconnect.
+
 ## Resources
 
 - [TypeORM](https://typeorm.io/)
