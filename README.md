@@ -22,7 +22,7 @@ We recognize how annoying it can be to have to set up an environment that doesn'
 
 Use the following code block to clone and get setup
 
-``` bash
+```bash
 # clone forked repo
 git clone https://github.com/{username}/cims-interview-skills-tests.git
 # gh repo clone {username}/cims-interview-skills-tests
@@ -37,10 +37,6 @@ yarn
 # create a branch for PR
 git checkout -b {username or name}_skills_test
 ```
-<!-- 
-TODO pre-requesitite checker script
-TODO better test cases for generic-object-merging
- -->
 
 ## Choose Your Own Adventure
 
@@ -67,6 +63,7 @@ Write a function to merge and organize a list of Users
 Navigate to the [Pull Requests][pull] menu and create a Pull Request against the `main` branch. Don't worry if it's rejected. This just gives us an easy way to review things later.
 
 <!-- links -->
+
 [node]: https://nodejs.org/download/release/v16.20.0/
 [yarn]: https://yarnpkg.com/getting-started/install
 [docker]: https://docs.docker.com/get-docker
