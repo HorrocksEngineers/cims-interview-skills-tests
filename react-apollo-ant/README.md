@@ -19,9 +19,6 @@ A fair amount of code has been written for you to get started since it would be 
 
 ## Getting Started
 
-- Copy `.example.env` as `.env`.
-- Get an API Key to interact with the Development GraphQL API from an interviewer.
-
 ``` bash
 yarn react-apollo-ant
 ```
