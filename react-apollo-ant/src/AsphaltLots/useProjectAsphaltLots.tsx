@@ -10,9 +10,7 @@ export default function useProjectAsphaltLots() {
   // most of this has been done for you as CIMS has its own methodology for
   // generating useQuery hooks automatically
   const query = useQuery<ProjectAsphaltLotsType>(ProjectAsphaltLotsQuery, {
-    variables: {
-      globalId,
-    },
+    variables: { globalId },
   });
   return query;
 }
