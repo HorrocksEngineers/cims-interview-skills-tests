@@ -2,7 +2,7 @@
 
 We have come up with a few exercises to help our team get a feel for how you write code and solve problems.
 
-You will need to clone this repository, go over getting started instructions, and create a branch to work out of. For 15 minutes, you'll be able to check out each exercise, look over resources, and come up with a game plan. After that time, you'll get 30 minutes to complete as much of your selected exercise as possible. If you start working before the first 15 minutes is up, we'll start the 30 minute timer; so make the most of your preparation time.
+You will need to fork to clone this repository, go over getting started instructions, and create a branch to work out of. For 15 minutes, you'll be able to check out each exercise, look over resources, and come up with a game plan. After that time, you'll get 30 minutes to complete as much of your selected exercise as possible. If you start working before the first 15 minutes is up, we'll start the 30 minute timer; so make the most of your preparation time.
 
 Not finishing an exercise in 30 minutes will not result in a disqualification of any kind. Completion is nice, but we're more interested in how you work through the problem. With that in mind, we will be "looking over your shoulder" as you prepare and attempt to complete your selected exercise; expecting to hear your thoughts as you go.
 
@@ -21,29 +21,35 @@ We recognize how annoying it can be to have to set up an environment that doesn'
 
 ## Getting Started
 
-Use the following steps to clone the repository and get set up
+Use the following steps to fork to clone the repository and get set up.
 
-### Clone Repository
+### Fork
+
+[Fork](https://github.com/HorrocksEngineers/cims-interview-skills-tests/fork) this repository.
+
+Copy the `main` branch only.
+
+### Clone
 
 HTTPS
 
 ```bash
-git clone https://github.com/HorrocksEngineers/cims-interview-skills-tests.git
+git clone https://github.com/{username}/cims-interview-skills-tests.git
 ```
 
 SSH
 
 ```bash
-git clone git@github.com:HorrocksEngineers/cims-interview-skills-tests.git
+git clone git@github.com:{username}/cims-interview-skills-tests.git
 ```
 
 GitHub CLI
 
 ```bash
-gh repo clone HorrocksEngineers/cims-interview-skills-tests
+gh repo clone {username}/cims-interview-skills-tests
 ```
 
-### Get Set Up
+### Set Up
 
 ```bash
 # go into repo
@@ -61,22 +67,22 @@ git checkout -b "${NAME}_skills_test"
 
 ### Database Normalization + TypeORM
 
-Use TypeORM to define a normalized database schema
+Use TypeORM to define a normalized database schema.
 
 [README](/database-normalization-typeorm/README.md#background)
 
 ### React + Apollo Client + Ant Design
 
-Build a React component to display a Project's Asphalt Lots from the database
+Build a React component to display a Project's Asphalt Lots from the database.
 
 [README](/react-apollo-ant/README.md#background)
 
 ### Typescript Generic Method + Object Merging
 
-Write a function to merge and organize a list of Users
+Write a function to merge and organize a list of Users.
 
 [README](/generic-object-merging/README.md#background)
 
 ## When we finish
 
-Navigate to the [Pull Requests](https://github.com/HorrocksEngineers/cims-interview-skills-tests/pulls) menu and create a Pull Request against the `main` branch. Don't worry if it's rejected. This just gives us a fast and easy way to review things later.
+Navigate to the [Pull Requests](https://github.com/HorrocksEngineers/cims-interview-skills-tests/pulls) menu and create a Pull Request against the upstream `main` branch. Don't worry if it's rejected. This just gives us a fast and easy way to review things later.
