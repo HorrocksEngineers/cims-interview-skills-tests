@@ -20,7 +20,10 @@ type ProjectUser = User & {
  * @param userToProjects a list of `UserToProject` records for a given `Project`
  * @returns {ProjectUser[]} a list of `User` records with their associated `UserGroup`, `Role`, and additional `Permission` records
  */
-// TODO projectUsers
+function projectUsers(...args: any[]) {
+  // todo implement projectUsers
+  return;
+}
 
 const { projectToUserGroups, userToProjects } = dataJSON.data.project;
 test(projectUsers(projectToUserGroups, userToProjects));
