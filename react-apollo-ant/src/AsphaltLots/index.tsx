@@ -1,5 +1,5 @@
 import { Typography } from 'antd';
-import useProjectAsphaltLots from './useProjectAsphaltLots';
+import { useProjectAsphaltLots } from './hooks/useProjectAsphaltLots';
 
 interface AsphaltLotsProps {}
 

@@ -5,7 +5,7 @@ import { gql, useQuery } from '@apollo/client';
  *
  * TODO handle errors with a pop-up notification
  */
-export default function useProjectAsphaltLots() {
+export function useProjectAsphaltLots() {
   const globalId = 'DA8C588C-A7DA-41F1-AD59-602363787D48';
   // most of this has been done for you as CIMS has its own methodology for
   // generating useQuery hooks automatically
@@ -19,7 +19,7 @@ export default function useProjectAsphaltLots() {
  * While the `globalId` variable has been provided above, you may use any of
  * the inputs to modify query results
  */
-const ProjectAsphaltLotsQuery = gql`
+export const ProjectAsphaltLotsQuery = gql`
   query (
     $globalId: String!
     $asphaltLotFieldInput: AsphaltLotFieldInput
@@ -86,7 +86,7 @@ const ProjectAsphaltLotsQuery = gql`
  * We've done the work of typing out the response of `ProjectAsphaltLotsQuery`
  * as CIMS has it's own methodology for generating types automatically
  */
-type ProjectAsphaltLotsType = {
+export type ProjectAsphaltLotsType = {
   project: {
     projectName?: string;
     clientProjectNumber?: string;
