@@ -11,7 +11,6 @@
   - [Database Normalization + TypeORM](#database-normalization--typeorm)
   - [React + Apollo Client + Ant Design](#react--apollo-client--ant-design)
   - [Typescript Generic Method + Object Merging](#typescript-generic-method--object-merging)
-  - [Data Structure Manipulation](#data-structure-manipulation)
 - [When we finish](#when-we-finish)
 
 ## Introduction
@@ -103,12 +102,6 @@ Build a React component to display a Project's Asphalt Lots from the database.
 Write a function to merge and organize a list of Users.
 
 [README](/generic-object-merging/README.md#background)
-
-### Data Structure Manipulation
-
-Read and write plain JavaScript with some simple data structures.
-
-[README](/data-structure-manipulation/README.md)
 
 ## When we finish
 
