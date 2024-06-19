@@ -1,16 +1,33 @@
 # CIMS Interview Skills Tests <!-- omit in toc -->
 
-We have come up with a few exercises to help our team get a feel for how you write code and solve problems.
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+  - [Fork](#fork)
+  - [Clone](#clone)
+  - [Set Up](#set-up)
+- [Reading](#reading)
+- [Writing](#writing)
+  - [Database Normalization + TypeORM](#database-normalization--typeorm)
+  - [React + Apollo Client + Ant Design](#react--apollo-client--ant-design)
+  - [Typescript Generic Method + Object Merging](#typescript-generic-method--object-merging)
+  - [Data Structure Manipulation](#data-structure-manipulation)
+- [When we finish](#when-we-finish)
 
-You will need to fork to clone this repository, go over getting started instructions, and create a branch to work out of. For 15 minutes, you'll be able to check out each exercise, look over resources, and come up with a game plan. After that time, you'll get 30 minutes to complete as much of your selected exercise as possible. If you start working before the first 15 minutes is up, we'll start the 30 minute timer; so make the most of your preparation time.
+## Introduction
 
-Not finishing an exercise in 30 minutes will not result in a disqualification of any kind. Completion is nice, but we're more interested in how you work through the problem. With that in mind, we will be "looking over your shoulder" as you prepare and attempt to complete your selected exercise; expecting to hear your thoughts as you go.
+This skills test is comprised of 2 parts
 
-At the end, we'll have you create a pull request against the `main` branch so we can review it later.
+1. Reading
+1. Writing
 
-## Prerequisites <!-- omit in toc -->
+In the Reading portion, we'll spend 15 or so minutes going through various code examples. You'll be expected to read the code, understand what's going on, and answer some related questions.
 
-We recognize how annoying it can be to have to set up an environment that doesn't exactly match your preferred defaults. We recommend running everything out of WSL in a new Linux environment, or in another virtualized Linux environment.
+In the Writing portion, you'll be given 10 minutes to fork a repository, look through a selection of activities and associated resources, and prepare your thoughts and ideas. You'll then be given 30 minutes to implement your plans and create a GitHub pull request against the main upstream branch. We're not concerned if you can't finish your plan; we're more concerned with your problem solving, style, and general vibe.
+
+## Prerequisites
+
+We recognize how annoying it can be to have to set up a development environment that doesn't exactly match your preferred defaults. If we were to set this all up again, we'd do so online. For now, we recommend running everything out of WSL in a new Linux environment, or in another virtualized Linux environment in MacOS or Linux. If you aren't worried about messing with your daily driver, feel free to use it.
 
 - [git](https://git-scm.com/downloads)
 - [node](https://nodejs.org)
@@ -19,17 +36,17 @@ We recognize how annoying it can be to have to set up an environment that doesn'
 - [yarn](https://yarnpkg.com/getting-started/install)
 - [Docker & Docker Compose](https://docs.docker.com/get-docker)
 
-## Getting Started <!-- omit in toc -->
+## Getting Started
 
 Use the following steps to fork to clone the repository and get set up.
 
-### Fork <!-- omit in toc -->
+### Fork
 
 [Fork](https://github.com/HorrocksEngineers/cims-interview-skills-tests/fork) this repository.
 
 Copy the `main` branch only.
 
-### Clone <!-- omit in toc -->
+### Clone
 
 HTTPS
 
@@ -49,7 +66,7 @@ GitHub CLI
 gh repo clone {username}/cims-interview-skills-tests
 ```
 
-### Set Up <!-- omit in toc -->
+### Set Up
 
 ```bash
 # go into repo
@@ -63,12 +80,11 @@ NAME=MalcolmReynolds
 git checkout -b "${NAME}_skills_test"
 ```
 
-## Choose Your Own Adventure <!-- omit in toc -->
+## Reading
 
-- [Database Normalization + TypeORM](#database-normalization--typeorm)
-- [React + Apollo Client + Ant Design](#react--apollo-client--ant-design)
-- [Typescript Generic Method + Object Merging](#typescript-generic-method--object-merging)
-- [Data Structure Manipulation](#data-structure-manipulation)
+Open up this [README](/reading-javascript/README.md) to go through the reading portion
+
+## Writing
 
 ### Database Normalization + TypeORM
 
@@ -94,6 +110,6 @@ Read and write plain JavaScript with some simple data structures.
 
 [README](/data-structure-manipulation/README.md)
 
-## When we finish <!-- omit in toc -->
+## When we finish
 
 Navigate to the [Pull Requests](https://github.com/HorrocksEngineers/cims-interview-skills-tests/pulls) menu and create a Pull Request against the upstream `main` branch. Don't worry if it's rejected. This just gives us a fast and easy way to review things later.
