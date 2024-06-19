@@ -13,6 +13,7 @@ through type safety. For the purposes of this exercise we'll be skipping the sug
 using plain ol' JavaScript to get straight to the meat and potatoes.
 
 ## Requirements
+
 1. In this directory you'll find 4 numbered files
 1. In each file is a data structure and/or function, and a TODO
 1. Move through the files in numeric order, solving the TODO in each one
@@ -25,4 +26,5 @@ node question1.js
 Run the .js file you're working on using `node`
 
 ## Resources
+
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/)
