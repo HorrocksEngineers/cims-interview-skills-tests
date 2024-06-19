@@ -5,6 +5,11 @@ const dogs = [
     favoriteTreats: ['steak', 'bacon'],
   },
   {
+    name: 'Clifford',
+    age: 7,
+    favoriteTreats: ['steak',],
+  },
+  {
     name: 'Gypsy',
     age: 10,
     favoriteTreats: ['chewy bone', 'bacon'],
@@ -20,3 +25,8 @@ const dogs = [
  * TODO Using the `dogs` array, print to the console the names of all dogs that 
  * do not have 'bacon' in their list of favorite treats
  */
+dogs.map((dog) => {
+  if (!dog.favoriteTreats.includes('bacon')) {
+    console.log(dog.name)
+  }
+})
