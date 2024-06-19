@@ -1,4 +1,4 @@
-# CIMS Interview Skills Tests
+# CIMS Interview Skills Tests <!-- omit in toc -->
 
 We have come up with a few exercises to help our team get a feel for how you write code and solve problems.
 
@@ -8,7 +8,7 @@ Not finishing an exercise in 30 minutes will not result in a disqualification of
 
 At the end, we'll have you create a pull request against the `main` branch so we can review it later.
 
-## Prerequesites
+## Prerequisites <!-- omit in toc -->
 
 We recognize how annoying it can be to have to set up an environment that doesn't exactly match your preferred defaults. We recommend running everything out of WSL in a new Linux environment, or in another virtualized Linux environment.
 
@@ -19,17 +19,17 @@ We recognize how annoying it can be to have to set up an environment that doesn'
 - [yarn](https://yarnpkg.com/getting-started/install)
 - [Docker & Docker Compose](https://docs.docker.com/get-docker)
 
-## Getting Started
+## Getting Started <!-- omit in toc -->
 
 Use the following steps to fork to clone the repository and get set up.
 
-### Fork
+### Fork <!-- omit in toc -->
 
 [Fork](https://github.com/HorrocksEngineers/cims-interview-skills-tests/fork) this repository.
 
 Copy the `main` branch only.
 
-### Clone
+### Clone <!-- omit in toc -->
 
 HTTPS
 
@@ -49,7 +49,7 @@ GitHub CLI
 gh repo clone {username}/cims-interview-skills-tests
 ```
 
-### Set Up
+### Set Up <!-- omit in toc -->
 
 ```bash
 # go into repo
@@ -59,11 +59,16 @@ cd cims-interview-skills-tests
 yarn
 
 # create a branch for PR
-NAME=MalcomReynolds
+NAME=MalcolmReynolds
 git checkout -b "${NAME}_skills_test"
 ```
 
-## Choose Your Own Adventure
+## Choose Your Own Adventure <!-- omit in toc -->
+
+- [Database Normalization + TypeORM](#database-normalization--typeorm)
+- [React + Apollo Client + Ant Design](#react--apollo-client--ant-design)
+- [Typescript Generic Method + Object Merging](#typescript-generic-method--object-merging)
+- [Data Structure Manipulation](#data-structure-manipulation)
 
 ### Database Normalization + TypeORM
 
@@ -83,6 +88,12 @@ Write a function to merge and organize a list of Users.
 
 [README](/generic-object-merging/README.md#background)
 
-## When we finish
+### Data Structure Manipulation
+
+Read and write plain JavaScript with some simple data structures.
+
+[README](/data-structure-manipulation/README.md)
+
+## When we finish <!-- omit in toc -->
 
 Navigate to the [Pull Requests](https://github.com/HorrocksEngineers/cims-interview-skills-tests/pulls) menu and create a Pull Request against the upstream `main` branch. Don't worry if it's rejected. This just gives us a fast and easy way to review things later.

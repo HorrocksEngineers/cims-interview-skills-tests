@@ -8,7 +8,7 @@ Databases are integral to any project you're working on. Anyone who's worked wit
 
 CIMS is not immune to this, but we don't want to introduce anymore jank than already exists.
 
-This execise is intended to test both your database normalization skills and ability to set up entities using TypeORM.
+This exercise is intended to test both your database normalization skills and ability to set up entities using TypeORM.
 
 I like Pokemon, so the database schema in question is a simple Pokemon game database.
 
