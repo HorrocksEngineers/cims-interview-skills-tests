@@ -4,13 +4,9 @@
 
 ## Background
 
-Underneath every framework, npm package, API route, and database migration, lies
-the basic data structures of JavaScript and their various uses/methods.
+Underneath every framework, npm package, API route, and database migration, lies the basic data structures of JavaScript and their various uses/methods.
 
-In CIMS we use TypeScript, which is a superset of JavaScript with some added
-"syntactic sugar" that makes JS code a lot more clearly defined and maintainable 
-through type safety. For the purposes of this exercise we'll be skipping the sugar, and 
-using plain ol' JavaScript to get straight to the meat and potatoes.
+In CIMS we use TypeScript, which is a superset of JavaScript with some added "syntactic sugar" that makes JS code a lot more clearly defined and maintainable through type safety. For the purposes of this exercise we'll be skipping the sugar, and using plain ol' JavaScript to get straight to the meat and potatoes.
 
 ## Requirements
 
@@ -23,6 +19,7 @@ using plain ol' JavaScript to get straight to the meat and potatoes.
 ``` bash
 node question1.js
 ```
+
 Run the .js file you're working on using `node`
 
 ## Resources
