@@ -1,7 +1,7 @@
 const swap = (a, b) => {
-  let temp = a
-  a = b
-  b = temp
+  let temp = a.age
+  a.age = b.age
+  b.age = temp
 }
 
 const dog1 = {
@@ -18,7 +18,7 @@ const dog2 = {
 
 console.log(`Dog 1: ${dog1.age}, Dog 2: ${dog2.age}`)
 
-swap(dog1.age, dog2.age)
+swap(dog1, dog2)
 
 console.log(`Dog 1: ${dog1.age}, Dog 2: ${dog2.age}`)
 
