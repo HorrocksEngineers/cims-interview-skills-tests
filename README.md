@@ -59,7 +59,7 @@ cd cims-interview-skills-tests
 yarn
 
 # create a branch for PR
-NAME=MalcolmReynolds
+NAME=EnterYourNameHere
 git checkout -b "${NAME}_skills_test"
 ```
 
