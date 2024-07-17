@@ -90,3 +90,7 @@ Write a function to merge and organize a list of Users.
 ## When we finish <!-- omit in toc -->
 
 Navigate to the [Pull Requests](https://github.com/HorrocksEngineers/cims-interview-skills-tests/pulls) menu and create a Pull Request against the upstream `main` branch. Don't worry if it's rejected. This just gives us a fast and easy way to review things later.
+
+<!-- todo what are we actually trying to measure with these tests? can we make that more apparent in the tests? -->
+<!-- todo clarify that we mean by "Resolve as many TODOs as possible" -->
+<!-- todo instead of just sprinkling TODOs throughout the code, we should really have them be in a centralized place as well -->
